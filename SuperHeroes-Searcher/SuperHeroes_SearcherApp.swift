@@ -11,7 +11,7 @@ import SwiftUI
 struct SuperHeroes_SearcherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SuperHeroSearcher()
         }
     }
 }
