@@ -15,7 +15,6 @@ struct SuperHeroSearcher: View {
     
     var body: some View {
         VStack{
-            
             TextField("", text: $superHeroName, prompt: Text("Superman...")
                 .foregroundColor(.textApp.opacity(0.5))
                 .bold()
